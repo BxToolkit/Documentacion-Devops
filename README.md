@@ -59,3 +59,14 @@ _Iniciar Git_
 git init
 ```
 
+##
+## Documentar las cabeceras de nuestro código en los proyectos :space_invader:
+```
+/*--------------------------------------------------------------------------------------------------------
+Autor: [Nombre y apellido]
+Empresa: Bxtoolkit
+Descripción: [Descripción de la clase, componente, VF, etc]
+Modificado: [Fecha de ultima modificación]
+Método de prueba: [En caso de ser una clase, cual es su método de prueba]
+---------------------------------------------------------------------------------------------------------*/
+```
