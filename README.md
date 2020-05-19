@@ -1,5 +1,7 @@
-# Documentacion-Devops
-## COMANDOS PARA GESTIONAR METADATA SALESFORCE DX DESDE LA CONSOLA 🚀
+#
+# Documentacion-Devops :beers:
+
+## Comandos para gestionar Salesforce DX desde la consola 🚀
 
 _Para crear un proyecto desde la terminal CMD de windows_ 
 ```
@@ -35,7 +37,7 @@ _Realizar Push hacia la org de salesforce de un archivo en específico_
 sfdx force:source:deploy --loglevel fatal --sourcepath force-app/main/defaultNombredelacarperta/Archivo.APEX
 ```
 ##
-## COMANDOS DE GITHUB DESDE LA CONSOLA SI YA TENEMOS UBICADO EL REPOSITORIO REMOTO ⌨️
+## Comandos de github desde la consola si ya tenemos creado nuestro repositorio remoto ⌨️
 
 ```
 git add *
@@ -70,3 +72,6 @@ Modificado: [Fecha de ultima modificación]
 Método de prueba: [En caso de ser una clase, cual es su método de prueba]
 ---------------------------------------------------------------------------------------------------------*/
 ```
+
+
+_No olvides tambien documentar los readme de los repositorios, porque esto ayudará a ubicar más fácilmente fragmentos de código..._
