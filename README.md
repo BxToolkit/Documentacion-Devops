@@ -1,5 +1,5 @@
 #
-# Documentacion-Devops :beers:
+# Documentación-Devops :beers:
 
 ## Comandos para gestionar Salesforce DX desde la consola 🚀
 
@@ -12,7 +12,7 @@ _Luego nos ubicamos en la carpeta del proyecto creado_
 ```
 cd myprojectname
 ```
-_Realizamos el login se puede nombrar un alias y username para el proyecto_
+_Realizamos el login (nombramos un alias y username para el proyecto)_
 ```
 sfdx force:auth:web:login --setalias userOrgNewFeatures --setdefaultusername
 ```
@@ -29,7 +29,7 @@ sfdx force:source:retrieve --manifest manifest/package.xml
 
 _Realizar Push hacia la org de salesforce de toda una carpeta (No es recomendable si compartimos el sandbox con el equipo)_
 ```
-sfdx force:source:deploy --loglevel fatal --sourcepath force-app/main/default/Nombredelacarperta
+sfdx force:source:deploy --loglevel fatal --sourcepath force-app/main/default/Nombredelacarpeta
 ```
 
 _Realizar Push hacia la org de salesforce de un archivo en específico_
@@ -74,4 +74,4 @@ Método de prueba: [En caso de ser una clase, cual es su método de prueba]
 ```
 
 
-_No olvides tambien documentar los readme de los repositorios, porque esto ayudará a ubicar más fácilmente fragmentos de código..._
+_No olvidemos tambien documentar los readme de los repositorios, porque esto ayudará a ubicar más fácilmente fragmentos de código..._
