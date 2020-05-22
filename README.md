@@ -60,7 +60,7 @@ _Iniciar Git_
 ```
 git init
 ```
-
+https://help.github.com/es/github/using-git/getting-started-with-git-and-github
 ##
 ## Documentar las cabeceras de nuestro código en los proyectos :space_invader:
 ```
