@@ -34,7 +34,7 @@ sfdx force:source:deploy --loglevel fatal --sourcepath force-app/main/default/No
 
 _Realizar Push hacia la org de salesforce de un archivo en específico_
 ```
-sfdx force:source:deploy --loglevel fatal --sourcepath force-app/main/defaultNombredelacarperta/Archivo.APEX
+sfdx force:source:deploy --loglevel fatal --sourcepath force-app/main/default/Nombredelacarperta/Archivo.APEX
 ```
 ##
 ## Comandos de github desde la consola si ya tenemos creado nuestro repositorio remoto ⌨️
